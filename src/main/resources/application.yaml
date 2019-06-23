@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: main
+server:
+  port: 8080
+blockchain:
+  wallet-private-key: "0x46765a0509b6fdaa0a56f2317df8f519783b96854bbe68e27b73f8ab80158914"  # replace with you wallet private key
+  tessera-public-key: "XDYvyGiN2Tl6tmwZH2QQBeJAYj7xPL0ffPb25dR+sm0="  # replace with public key of Tessera node you use
+  geth-node-endpoint: "http://127.0.0.1:22000"  # replace with endpoint to your Quorum node
+  tessera-node-host: "http://127.0.0.1"   # replace with your Tessera node host
+  tessera-node-port: 9081   # replace with your Tessera node port
